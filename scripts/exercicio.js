@@ -2,12 +2,12 @@
 
 const numero1 = document.getElementById("numero1");
 const numero2 = document.getElementById("numero2");
-const botaoSomar = document.getElementById("botaoSomar");
+const botao = document.getElementById("botao");
 const resultadoSoma = document.getElementById("resultadoSoma");
 const resultadoSub = document.getElementById("resultadoSub");
 const resultadoMultipli = document.getElementById("resultadoMultipli");
 
-botaoSomar.addEventListener("click", () => {
+botao.addEventListener("click", () => {
 
     const n1 = Number(numero1.value);
     const n2 = Number(numero2.value);
